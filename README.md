@@ -31,10 +31,76 @@ This tool has been an outcome of a semester project under Programming Methodolog
     String mailFrom = "your_email_here";
     String password = "your_password_hare";
     `
+
+
+
+![image](https://user-images.githubusercontent.com/67374926/138140270-a75e230e-a335-4312-8f0d-8b5f90725812.png)
+
 * Don't forget to allow <strong>less secure apps to access gmail option </strong>
 * You can find it here https://myaccount.google.com/lesssecureapps
 * Now you are good to go!!!
 
 
+## Detailed Usage 
+Have a look at the detailed procedure!
+* This is how the Entry page looks 
+    ![image](https://user-images.githubusercontent.com/67374926/138140674-cfa42e02-494f-42d8-9d08-196510f7e849.png)
 
-  
+#### Creating an account using the superuser credentials
+* First Create an account using the superuser login 
+    <strong> The username and passwords are 1000 and abcd123   </strong>
+* Now enter the details of the new client to be added(here it is Soham)
+    ![image](https://user-images.githubusercontent.com/67374926/138140875-8bc29288-4362-4b80-b5fb-ef143d2ae9aa.png)
+
+* On successfully submitting everything, an email will be sent to the customer and the details will be added on the database
+    ![image](https://user-images.githubusercontent.com/67374926/138141092-29600d15-a37c-409a-bc55-506b45952b93.png)
+    
+* Have a sneak into the database
+    ![image](https://user-images.githubusercontent.com/67374926/138141195-b24166d0-ca23-42ee-ac86-e9c03c665307.png)
+
+#### Withdrawing some amount using customer credentials
+
+* Now login using the customer credentials(cardnumber,pin,cvv) and login in to your account
+    ![image](https://user-images.githubusercontent.com/67374926/138141435-3fbadb20-1706-4cd3-ac63-5061cbc15463.png)
+
+* Now press 1 for withdrawing some amount and fill up the detials
+
+* You will <strong> receive an OTP on your registered email before the amount is debited </strong>
+    ![image](https://user-images.githubusercontent.com/67374926/138142010-6efbd260-91ac-4ab7-8dcf-1b6935a503fe.png)
+
+
+* On successful withdrawal a message would be genreated and the <strong> same will be communicataed over email </strong>
+    
+    ![image](https://user-images.githubusercontent.com/67374926/138141735-d2d5b9ef-eed7-4988-acaf-7317de2a26f4.png)
+
+* You can also notice changes in the database
+    ![image](https://user-images.githubusercontent.com/67374926/138142092-e986bae6-934e-4201-aaa6-6d0b488e1b77.png)
+
+
+#### Crediting some amount with the customer credentials
+* This process is very much similar to debiting 
+    ![image](https://user-images.githubusercontent.com/67374926/138142291-c2b69571-c98f-4afb-9b13-b41cc123cdde.png)
+
+* On successfull credit a email will be generated and the same will be printed on the console
+    ![image](https://user-images.githubusercontent.com/67374926/138142531-d49170d0-82a0-44f3-b9c6-e1e0f7ade905.png)
+
+* you can notice the changes in the database
+    ![image](https://user-images.githubusercontent.com/67374926/138142434-2496149b-81a7-4552-acf3-09608b4b0f4a.png)
+
+
+#### Knowing the balance using customer credentials
+* Select option 2 in the user menu for knowing the balance
+* On filling appropriate information the current status of the accounted will be shown in the console and another mail will be generated for depicting the samw
+    ![image](https://user-images.githubusercontent.com/67374926/138142822-0cd7ab26-8b8e-4bd3-9848-9b4bdf06ac8a.png)
+
+    The mail
+    ![image](https://user-images.githubusercontent.com/67374926/138142872-0e23af70-e930-4896-a63a-25103e0ecaa1.png)
+
+
+#### Changing the pin of a customer using customer credentials
+* Select option 2 for changing the pin
+* Follow the necessary information and voila! your pin will be changed following a secured protocol
+    ![image](https://user-images.githubusercontent.com/67374926/138143166-6b512b67-a1b7-4d1a-b2b5-fd0754ec8ffc.png)
+
+
+In case you have found any flaws, or want to improve some existing features or you want some new features, create an issue on this repository.
